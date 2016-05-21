@@ -27,8 +27,8 @@ public class App {
 
 	private static String getLocalCurrentDate() {
 
-		if (logger.isDebugEnabled()) {
-			logger.debug("getLocalCurrentDate() is executed!");
+		if (logger.isInfoEnabled()) {
+			logger.info("getLocalCurrentDate() is executed!");
 		}
 
 		LocalDate date = new LocalDate();
